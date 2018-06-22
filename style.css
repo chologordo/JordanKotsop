@@ -15,6 +15,27 @@ body {
   text-align: center;
 }
 
+.backtotop {
+  width: 100%;
+}
+
+.backtotop p {
+  text-align: center;
+  color: black;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.backtotop p a {
+  color: black;
+}
+
+.backtotop p a:hover {
+ background-color: black;
+ color: white;
+ }
+
 /* header section -----------------------------------------------------*/
 header {
   border-bottom: 1px solid black;
@@ -48,6 +69,9 @@ header {
 
 .logo_cholo h1 {
   font-family: calibri;
+}
+.logo_cholo h1 a {
+  text-decoration: none;
 }
 
 header nav {
@@ -197,11 +221,12 @@ span a {
   text-align: center;
 }
 
-.autobiography p {
+.autobiography .summary p {
   font-family: calibri;
   font-size: 1.5em;
   font-weight: bold;
   margin-left: 1.5%;
+  margin-right: 1.5%;
 
 }
 
@@ -209,7 +234,15 @@ span a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+.education_sub {
+  text-align: left;
+  font-family: calibri;
+  font-size: 1.5em;
+  font-style: italic;
+  text-decoration: underline;
+  width: 80%;
 }
 
 .school {
@@ -220,6 +253,7 @@ span a {
   background-color: #D6EAF8;
   align-items: center;
 }
+
 
 .school p {
   font-size: 1.3em;
@@ -233,6 +267,24 @@ span a {
 .school img {
   width: 37%;
   height: auto;
+}
+
+.USlogos {
+  display:inline-flex;
+  flex-direction: column;
+  background-color: white;
+  width: 290em;
+  height: 100%;
+}
+
+.USlogos img {
+  display:inline-flex;
+  width: 100%;
+}
+
+#csupic {
+  border-bottom: 1px solid black;
+  margin-bottom: 5%;
 }
 
 
