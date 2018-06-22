@@ -269,17 +269,8 @@ span a {
   height: auto;
 }
 
-.USlogos {
-  display:inline-flex;
-  flex-direction: column;
-  background-color: white;
-  width: 290em;
-  height: 100%;
-}
-
-.USlogos img {
-  display:inline-flex;
-  width: 100%;
+#ncaa_text {
+  font-size: 1.2em;
 }
 
 #csupic {
@@ -294,7 +285,10 @@ footer {
   display:flex;
   flex-direction: column;
   font-family: calibri;
-
+  border-top: 1px solid black;
+  background-color: black;
+  color: white;
+  width: 100%;
 
 }
 
