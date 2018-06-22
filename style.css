@@ -227,6 +227,7 @@ span a {
   font-weight: bold;
   margin-left: 1.5%;
   margin-right: 1.5%;
+  text-align: justify;
 
 }
 
@@ -261,6 +262,7 @@ span a {
   font-family: calibri;
   margin: 1%;
   align-text: center;
+  text-align: justify;
 
 }
 
